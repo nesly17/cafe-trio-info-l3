@@ -27,14 +27,19 @@
       </nav>
     </section>
     <section class="contact">
-      <form action="" class="contact-form">
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        class="contact-form"
+      >
         <label for="nom">Nom</label>
         <input type="text" name="nom" id="nom" />
         <label for="prenom">Prenom</label>
         <input type="text" name="prenom" id="prenom" />
         <label for="textarea">Votre message</label>
-        <textarea name="" id=""></textarea>
-        <button type="button" class="btn btn-orange my-20">Envoyer</button>
+        <textarea name="message" id=""></textarea>
+        <button type="submit" class="btn btn-orange my-20">Envoyer</button>
       </form>
     </section>
     <footer>
